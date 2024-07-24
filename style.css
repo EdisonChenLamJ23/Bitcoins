@@ -30,19 +30,47 @@ body{
   height: 250px;
 }
 
-.link a{
+.link a {
   font-size: 30px;
   font-weight: bold;
   color: #7b5524;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+.link2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #7b5524;
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
+.link3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #7b5524;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
 .parrafo{
 display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.parrafo {
+  display: inline-block;
+   width: 50%;
 }
 
 .container{
@@ -61,9 +89,30 @@ height: 200px;
 float: left;
 }
 
-.img2 img3{
-size: 100px
-float: right;
+.img3 {
 display: flex;
-justify-content: space-between;
+align-items: center;
+}
+.img3 img{
+size: 100px;
+float: right;
+}
+
+.links container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end;
+  width: 100%;
+}
+
+.parrafo p {
+  font-size: 16px; 
+  color: #2d6080;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img4 img {
+
 }
